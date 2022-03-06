@@ -1,0 +1,47 @@
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#window {
+  position: fixed;
+  display: none;
+  top: 20%;
+  left: 10%;
+  width: 50%;
+  height: 50%;
+  background-color: rgb(23, 138, 190);
+  z-index: 3;
+  cursor: pointer;
+}
+
+#planetEarth {
+  position: fixed;
+  display: none;
+  top: 20%;
+  left: 61%;
+  width: 35%;
+  height: 35%;
+
+  z-index: 3;
+  cursor: pointer;
+}
